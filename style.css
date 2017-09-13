@@ -1,0 +1,251 @@
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Chewy', cursive;
+*/
+
+
+/*GENERIC*/
+
+html,
+body {
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+a {
+    color: #000;
+}
+
+a,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #AD343E;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+#desc {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+#desc {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+p {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.star {
+    color: goldenrod;
+}
+
+h5 {
+    display: inline;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.wrapper {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    /*    background-image: url(img/white-brick-wall.png);*/
+    background-color: rgba(252, 245, 190, 0);
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    z-index: 900;
+    padding: 0;
+    /*    background-color: rgba(252, 245, 190, 1);*/
+    background-color: #fff;
+}
+
+hr {
+    margin: 10px 0;
+    padding: 0;
+}
+
+
+/*PARALLEX BACKGROUNDS*/
+
+#color {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 255px;
+    background-color: rgba(192, 192, 192, 0.3);
+}
+
+#background1 {
+    height: 255px;
+    background-image: url(img/File%20Aug%2029,%205%2002%2056%20PM.jpeg);
+    /*    background-image: url(img/File%20Sep%2007,%201%2030%2007%20AM.jpeg);*/
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 5;
+    border-bottom: 2px solid #000;
+}
+
+#background2,
+#background3,
+#background4 {
+    height: 255px;
+    background-image: url(img/roadsky.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 7;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+#portfolio-tag {
+    width: 100%;
+    position: relative;
+    color: rgba(252, 245, 190, 1);
+    top: 5.5em;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#portfolio-tag h1 {
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+
+/*TITLE HEADER*/
+
+#header-aboutme {
+    width: 80%;
+    position: absolute;
+    color: #fff;
+    top: 2.8em;
+    left: 1.5em;
+    z-index: 6;
+}
+
+#header-aboutme h1 {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: -2px;
+    line-height: 1em;
+    color: rgba(252, 245, 190, 1);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#header-aboutme h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+
+/*ABOUT ME SECTION*/
+
+#about-me p {
+    padding: 0 50px;
+}
+
+.portrait img {
+    border: 3px solid #333;
+    margin: 20px 0;
+}
+
+
+/*SKILLS SECTION*/
+
+#skills p {
+    display: inline;
+}
+
+
+/*PORTFOLIO SECTION*/
+
+#portfolio p {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#portfolio h4 {
+    color: #333;
+    font-weight: bold;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+video {
+    width: 100% !important;
+    height: auto !important;
+    display: inline;
+    border-bottom: 1px solid #000;
+}
+
+.video-container {
+    background-color: #fff;
+    border: 1px solid #000;
+    margin: 10px;
+}
+
+.language {
+    color: #AD343E;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+/*CONTACT */
+
+#contact {
+    padding: 20px 50px 0;
+}
+
+#contact h4 {
+    font-weight: bold;
+}
+
+ul#social-icons {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#social-icons li {
+    list-style: none;
+    display: inline-block;
+}
